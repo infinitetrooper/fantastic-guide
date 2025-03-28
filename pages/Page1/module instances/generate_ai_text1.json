@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "67d948f210ed5751471c0761_8743b9bb-d97e-4166-a919-273e4eddc029",
+  "id": "Page1_generate_ai_text1",
+  "moduleUUID": "6776c6d2-6176-48c6-8f19-ef088fe1d0fc",
+  "packageUUID": "4565247d-3d76-467d-a161-51b1a98721de",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "prompt"
+      }
+    ],
+    "inputs": {
+      "prompt": "{{Input1.text}}"
+    },
+    "moduleInputs": {
+      "vmeeictodt": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "vmeeictodt",
+        "label": "prompt",
+        "propertyName": "inputs.prompt"
+      }
+    },
+    "name": "generate_ai_text1",
+    "pageId": "Page1",
+    "version": "v1.0.1"
+  }
+}
